@@ -1,0 +1,10 @@
+import array
+array3=array.array('i',[10,20,30,40,50,60,70,80])
+print("the first result is:",array3[1:4])
+print("the second result is:",array3[:2])
+print("the third result is:",array3[3:])
+print("the fourth result is:",array3[-3:])
+print("the fifth result is:",array3[:-6])
+print("the sixth result is:",array3[1:6:2])
+print("the seventh result is:",array3[0:7:3])
+print("the last value is:",array3[::4])
